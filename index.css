@@ -1,0 +1,112 @@
+@font-face {
+  font-family: CursedTimer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: #1b244a;
+  position: relative;
+  width: 575px;
+  height: 385px;
+}
+
+/*
+.team {
+color: #eeeeee;
+  font-size: 2.5rem;
+}
+*/
+.home {
+  position: absolute;
+  width: 149px;
+  height: 36px;
+  left: 85px;
+  top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #eeeeee;
+}
+.away {
+  position: absolute;
+  width: 149px;
+  height: 36px;
+  left: 340px;
+  top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+#homescore {
+  background: #080001;
+  border-radius: 5px;
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 82px;
+  top: 125px;
+  padding: 0.3125rem;
+
+  font-family: cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+}
+
+#awayscore {
+  background: #080001;
+  border-radius: 5px;
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 337px;
+  top: 125px;
+  padding: 0.3125rem;
+
+  font-family: cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+}
+
+.btn-left {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  left: 82px;
+  top: 271px;
+  border-radius: 5px;
+  color: #9aabd8;
+}
+
+.btn-right {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  left: 337px;
+  top: 271px;
+  border-radius: 5px;
+  color: #9aabd8;
+  stroke: #9aabd8;
+  stroke-width: 1px;
+}
