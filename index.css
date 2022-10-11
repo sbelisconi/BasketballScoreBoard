@@ -97,6 +97,9 @@ color: #eeeeee;
   top: 271px;
   border-radius: 5px;
   color: #9aabd8;
+  background: none;
+  padding: 0.5rem 0.625rem;
+  margin: 0 0.3125rem;
 }
 
 .btn-right {
@@ -107,6 +110,16 @@ color: #eeeeee;
   top: 271px;
   border-radius: 5px;
   color: #9aabd8;
-  stroke: #9aabd8;
   stroke-width: 1px;
+  background: none;
+  padding: 0.5rem 0.625rem;
+  margin: 0 0.3125rem;
+}
+
+#btn-reset {
+  position: absolute;
+  height: 60px;
+  left: 270px;
+  top: 320px;
+  border-radius: 6px;
 }
